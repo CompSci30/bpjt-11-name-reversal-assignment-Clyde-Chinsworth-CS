@@ -9,6 +9,7 @@ public class NameReversal
         Scanner kbReader = new Scanner(System.in);
         System.out.print("Hello, world");
         String name = kb.Reader.next(); //user inputs name
+        name = name.toLowerCase();
         for (int j = name.length(); j >= 0; j--)
         {
             
